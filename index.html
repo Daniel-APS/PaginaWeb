@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="Indice">Índice</h2>
+    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são
+        sugestões.</p>
+    <ul>
+        <li><a href="#História">História dos computadores</a></li>
+        <li><a href="#Clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#Servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#Estruturabasica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#Links"><i>Links de Referências</i>?</a></li>
+    </ul>
+
+    <h2 id="História">História dos Computadores</h2>
+
+    <body>
+
+        <p>A história dos computadores pode ser dividida em gerações, cada uma caracterizada por avanços tecnológicos
+            específicos.</p>
+
+        <h2>Primeira Geração (1940-1956)</h2>
+        <p>A primeira geração de computadores utilizava <strong>válvulas eletrônicas</strong> para processar
+            informações. Estes computadores eram extremamente <strong>grandes</strong> e <strong>consumiam muita
+                energia</strong>. Exemplos notáveis incluem o <abbr
+                title="Electronic Numerical Integrator Analyzer and Computer"><strong>ENIAC</strong></abbr> e o
+            <abbr title="Universal Automatic Computer"><strong>UNIVAC</strong></abbr>. Os
+            programas e dados eram armazenados em <strong>cartões perfurados</strong> e <strong>fitas
+                magnéticas</strong>.
+        </p>
+
+        <h2>Segunda Geração (1956-1963)</h2>
+        <p>A segunda geração viu a substituição das válvulas por <strong>transistores</strong>, o que tornou os
+            computadores <strong>menores</strong>, mais <strong>rápidos</strong> e mais <strong>eficientes
+                energeticamente</strong>. O <strong>IBM 1401</strong> é um exemplo dessa era. A linguagem de programação
+            de <strong>alto nível</strong> também começou a ser desenvolvida nesta geração, como <strong>COBOL</strong>
+            e <strong>FORTRAN</strong>.</p>
+
+        <h2>Terceira Geração (1964-1971)</h2>
+        <p>A terceira geração foi marcada pelo uso de <strong>circuitos integrados</strong>, que aumentaram ainda mais a
+            eficiência e reduziram o tamanho dos computadores. <strong>Minicomputadores</strong> e a introdução de
+            sistemas <strong>operacionais</strong> tornaram-se comuns. Exemplos incluem o <strong>PDP-8</strong> e o
+            <strong>IBM System/360</strong>.
+        </p>
+
+        <h2>Quarta Geração (1971-presente)</h2>
+        <p>A quarta geração é caracterizada pelo uso de <strong>microprocessadores</strong>, que permitiram a criação de
+            computadores <strong>pessoais</strong> e mais acessíveis. A <strong>IBM PC</strong> e o <strong>Apple
+                Macintosh</strong> são marcos desta era. A <strong>internet</strong> também surgiu e se popularizou,
+            revolucionando a forma como utilizamos os computadores.</p>
+
+        <h2>Quinta Geração (presente e futuro)</h2>
+        <p>A quinta geração é uma era de <strong>inteligência artificial</strong> e <strong>computação
+                quântica</strong>. Computadores estão se tornando cada vez mais <strong>inteligentes</strong> e
+            <strong>interconectados</strong>, com avanços em <strong>aprendizado de máquina</strong> e <strong>redes
+                neurais</strong>. Exemplos incluem sistemas como o <strong>Watson</strong> da IBM e os computadores
+            quânticos em desenvolvimento pela <strong>Google</strong> e <strong>IBM</strong>.
+        </p> <a>sour</a>
+        </p>
+        <p><a href="#Indice">Voltar ao índice</a></p>
+
+        <h2 id="Clients">O que são <strong>Clients</strong>?</h2>
+        <p><strong>Cliente-servidor</strong> é uma arquitetura de computação distribuída onde dispositivos em
+            rede, conhecidos
+            como <strong>clientes</strong>, interagem com uma central <strong>servidor</strong> para acessar recursos,
+            serviços ou
+            aplicativos. Neste modelo, o cliente inicia a comunicação enviando uma solicitação ao servidor, que então
+            processa a solicitação e retorna a resposta apropriada. O cliente normalmente é um aplicativo executado no
+            dispositivo de um usuário, como um <strong>navegador web</strong> ou <strong>cliente de e-mail</strong>,
+            enquanto o servidor é um computador poderoso ou um cluster de computadores projetado para lidar com várias
+            solicitações de clientes simultaneamente.</p>
+        </p>
+        <p><a href="#Indice">Voltar ao índice</a></p>
+
+        <h2 id="Servers">O que são <i>Servers</i>?</h2>
+        <p>Um <strong>servidor</strong> executa diversas tarefas, como <strong>armazenamento de dados, processamento e
+                gerenciamento</strong>, permitindo
+            que os clientes descarreguem essas operações que consomem muitos recursos. Esta abordagem centralizada
+            oferece diversas vantagens, incluindo manutenção mais fácil, já que atualizações e patches de segurança
+            podem ser aplicados no servidor sem exigir alterações em cada dispositivo cliente. Também aumenta a
+            segurança centralizando os dados, facilitando a proteção contra acesso não autorizado e violação de dados.
+        </p>
+        </p>
+        <p><a href="#Indice">Voltar ao índice</a></p>
+
+        <h2 id="Estruturabasica">Como é uma estrutura básica de um HTML?</h2>
+        <p>É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das
+            <strong>tags</strong> essenciais, conforme a seguinte estrutura:
+        </p>
+
+        <ul>
+            <li><strong>Definição do documento (doctype)</strong></li>
+            <li><strong>Cabeça (head)</strong></li>
+            <li><strong>Corpo (body)</strong></li>
+        </ul>
+
+        <h3>Doctype - Definindo o documento</h3>
+        <p>Uma coisa importante: <strong>SEMPRE</strong> deve existir o doctype, que é este código
+            <code>&lt;!DOCTYPE html&gt;</code>.
+        </p>
+        <p>O doctype não é uma <strong>tag HTML</strong>, mas uma instrução para o navegador e outros programas que
+            podem ler seu site, que o código encontrado ali é um código HTML. Assim eles sabem o que fazer para mostrar
+            seu site da melhor forma possível. Lembre-se: o doctype é <strong>OBRIGATÓRIO</strong> e deve ser sempre a
+            <strong>PRIMEIRA LINHA</strong> do seu documento.
+        </p>
+
+        <h3>HEAD</h3>
+        <p>Contém informações que não são transpostas visivelmente para o usuário/leitor do documento. São dados
+            implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de
+            programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a
+            abertura e fechamento da <strong>tag head</strong>.</p>
+
+        <h3>BODY</h3>
+        <p>Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor do documento. É todo e
+            qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia de saída (imagens, sons,
+            miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação de entrada de dados
+            (formulários) também se aplica nesta seção do documento. Na prática, o corpo do documento é delimitado pelo
+            par de <strong>tags &lt;body&gt;</strong> e <strong>&lt;/body&gt;</strong>.</p>
+        <p><a href="#Indice">Voltar ao índice</a></p>
+
+        <h2 id="Links">Links de referências</h2>
+
+        <ul>
+            <li><a href="https://www.diferenca.com/evolucao-dos-computadores"
+                    target="_blank">https://www.diferenca.com/evolucao-dos-computadores</a></li>
+            <li><a href="https://www.phoenixnap.pt/gloss%C3%A1rio/cliente-server"
+                    target="_blank">https://www.phoenixnap.pt/gloss%C3%A1rio/cliente-server</a></li>
+            <li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html"
+                    target="_blank">https://tableless.github.io/iniciantes/manual/html/estruturabasica.html</a></li>
+            <p><a href="#Indice">Voltar ao índice</a></p>
+        </ul>
+
+    </body>
+
+    </html>
